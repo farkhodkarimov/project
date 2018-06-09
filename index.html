@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Project</title>
+
+	<style>
+
+
+	body {
+		background-color: rgb(221,221,221);
+		font-family: sans-serif;
+		color: rgb(0,0,0);
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		border: 0;
+
+
+	}
+	.myRecipes {
+		color: rgb(161,99,99);
+		font-size: 48px;
+		margin-top: 20px;
+	}
+
+	.join {
+		color: rgb(161,99,99);
+		font-size: 36px;
+		line-height: 18px;
+	}
+	.posIm {
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+	.posIm p {
+		
+	}
+
+
+	ul {
+		font-size: 18px;
+		list-style: none;
+	}
+	ul li{
+		display: inline;
+	}
+
+	.vl {
+		border-right: 2px solid black;
+		height: 30px;
+		padding-top: 10px;
+		padding-right: 5px;
+		display: inline-block;
+	}
+
+	.floatleft {
+		float:left;
+	}
+	.floatright {
+		float:right;
+	}
+
+	nav a {
+		color: #000;
+		text-decoration: none;
+	}
+
+	div nav {
+		margin-top: -72px;
+		padding-bottom: 60px;
+		padding-right: 30px;
+	}
+
+	.threeIm {
+		padding: 15px;
+	}
+
+	.bottom {
+		display: block;
+		height: 150px;
+		width: 100%;
+		background-color: rgb(227,223,223);
+	}
+	.bottom ul {
+		padding: 0;
+		margin: 0;
+	}
+	.bottom ul a {
+		text-decoration: none;
+		color: black;
+		font-size: 16px;
+	}
+
+</style>
+</head>
+<body>
+	<div style = "background-color: rgb(235,229,229); width: 969px; margin: auto; height: 100%">
+
+		<div style="height: 35px;"></div>
+
+		<div>
+			<img src="images/chefs-hat.png">
+		</div>
+
+		<div class = "myRecipes">
+			MyRecipes
+		</div>
+
+		<div>
+			<nav>
+				<ul>
+					<div class="floatleft">
+						<li class=""><a class="vl" href="#">Popular Recipe</a></li>
+						<li class=""><a href="#">Whats New</a></li>
+					</div>
+					<div class="floatright">
+						<li><a class="vl" href="#">Meal Ideas</a></li>
+						<li><a href="#">Categories</a></li>
+					</div>
+				</ul>
+			</nav>
+		</div>
+
+
+		<div style="position: relative; margin: auto;">
+			<img src="images/dishes.jpg">
+			<div class="posIm">
+				<p class="join">Join our email club</p>
+				<p class="join">Sign up now!</p>
+				<form>
+					<input type="email" name="email" style="border-radius: 5px; font-size: 14px;" placeholder="enter your email">
+					<button style="text-transform: uppercase; font-size: 14px; border-radius: 5px;">Click Here</button>
+				</form>
+			</div>
+		</div>
+
+		<div >
+			<div style="position: relative; display: inline-block;">
+				<div style="position: absolute; top: 40px; width: 100%; font-size: 24px;">Vegetarian?</div>
+				<img src="images/pizza.jpg" class = "threeIm">
+			</div>
+
+			<div style="position: relative; display: inline-block;">
+				<div style="position: absolute; top: 40px; width: 100%; font-size: 24px; color: #fff">5 Minute Meals</div>
+				<img src="images/pasta.jpg" class = "threeIm" style="padding-left: 0;">
+			</div>
+
+			<div style="position: relative; display: inline-block;">
+				<div style="position: absolute; top: 40px; width: 100%; font-size: 24px;">Died Recipes</div>
+				<img src="images/diet.jpg" class = "threeIm" style="padding-left: 0;">
+			</div>
+			
+		</div>
+
+
+		<div class = "bottom">
+			<img src="images/cutlery.png" style="padding-top: 30px; transform: rotate(90deg);">
+
+			<ul>
+				<li class="">
+					<a class="vl" href="#">About Us</a>
+				</li>
+				<li class="">
+					<a class="vl" href="#">Contact Us</a></li>
+					<li>
+						<a class="vl" href="#">Suggest a Recipe</a>
+					</li>
+					<li>
+						<a href="#">Privacy</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</body>
+	</html>
